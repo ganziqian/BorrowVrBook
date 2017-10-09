@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/show_re_layout"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/book_bg">
+
+
+    <TextView
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="应用更新"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/dodgerblue"/>
+
+
+
+
+
+
+
+
+    <com.daimajia.numberprogressbar.NumberProgressBar
+        android:id="@+id/numberbar1"
+        android:layout_width="wrap_content"
+        android:padding="20dp"
+        custom:progress_current="0"
+        style="@style/NumberProgressBar_Default"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/quxiao_try_title_tv"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    取 消    "
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/write_corners_bg"/>
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/camera_overlay_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="@drawable/index_backgroup">
+
+
+        <RelativeLayout
+            android:layout_centerInParent="true"
+            android:layout_width="450dp"
+            android:layout_height="248dp"
+            android:gravity="center"
+            android:background="@drawable/book_backgroup">
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/back_index_iv"
+        android:padding="10dp"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/back_iv"/>
+
+
+    <LinearLayout
+        android:paddingBottom="20dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/index_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小   朋   友"
+            android:textColor="@color/dodgerblue"
+            android:textSize="25sp"
+            />
+
+
+        <TextView
+            android:id="@+id/index_tv1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="  请 扫 书 本 封 面 图  "
+            android:textColor="@color/dodgerblue"
+            android:textSize="25sp"
+            />
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/help_iv"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="110dp"
+        android:layout_height="51dp"
+        android:src="@drawable/help_icom"/>
+
+    <ImageView
+        android:id="@+id/suoyi_iv"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="110dp"
+        android:layout_height="51dp"
+        android:src="@drawable/suoyin_icom"/>
+</RelativeLayout>

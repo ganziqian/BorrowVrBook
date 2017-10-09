@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.zwg.borrowvrbook.fragemnt.LoadingFragment">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/load1_back">
+
+
+        <TextView
+            android:id="@+id/main_load_tv"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:text="数据加载中..."/>
+        <TextView
+            android:id="@+id/main_versionname_tv"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:layout_above="@id/main_load_tv"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/main_load_iv"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:src="@drawable/loading_list"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

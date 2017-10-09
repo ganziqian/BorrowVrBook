@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lis_suo_layout">
+
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:paddingTop="15dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/class_recycleview"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:background="@drawable/bookshelf_layer_center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <!--
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bookshelf_layer_center">
+
+        <com.zwg.huibenlib.view.BookGridview
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="40dp"
+            android:id="@+id/list1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="3"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none"/>
+
+        &lt;!&ndash; android:listSelector="@android:color/transparent"&ndash;&gt;
+
+    </ScrollView>-->
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/top_backgroup"/>
+
+    <ImageView
+        android:id="@+id/back_list_iv"
+        android:padding="10dp"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/back_iv"/>
+
+
+
+
+</RelativeLayout>

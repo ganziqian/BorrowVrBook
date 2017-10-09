@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/hhua"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="30dp"
+            android:layout_width="100dp"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:paddingLeft="7dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:id="@+id/list_iv1"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/default_icom"/>
+
+            <ImageView
+                android:id="@+id/zhedang_iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/shu_tizhe"
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:paddingBottom="5dp"
+                android:id="@+id/touyin_iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/touying"
+                android:scaleType="fitXY"/>
+
+
+
+            <RelativeLayout
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/back_lay"
+                android:background="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.zwg.huibenlib.view.RoundProgressBar
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/roundProgressBar"
+                    android:layout_width="50dip"
+                    android:layout_height="50dip"/>
+
+
+            </RelativeLayout>
+            <ImageView
+                android:paddingTop="30dp"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/list_is_iv"
+                android:scaleType="fitXY"
+                android:src="@drawable/zanting_icom"
+                android:layout_width="40dp"
+                android:layout_height="70dp"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/shuqian_iv"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@id/hhua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shuqian"/>
+
+
+    </RelativeLayout>
+
+
+
+
+
+    <ImageView
+        android:id="@+id/hhau"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/bookshelf_dock"/>
+
+
+</LinearLayout>

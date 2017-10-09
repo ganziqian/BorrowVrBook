@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/camera_overlay_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/index_backgroup">
+    <RelativeLayout
+        android:id="@+id/video_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <com.zwg.huibenlib.Utils.video.MyUniversalVideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:uvv_autoRotation="false"
+            app:uvv_fitXY="true" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/fengmian_layout"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/xianshi_fengmian_iv"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_icom"
+            android:layout_width="230dp"
+            android:layout_height="300dp" />
+
+    </RelativeLayout>
+
+
+
+    <ImageView
+        android:id="@+id/back_home_iv"
+        android:padding="10dp"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/back_iv"/>
+</RelativeLayout>
